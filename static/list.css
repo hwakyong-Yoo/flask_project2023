@@ -1,0 +1,63 @@
+.mypage a{
+	color:71513C;
+	font-size: 15px;
+	float: right;
+	padding: 10px;
+}
+.navbar__logo {
+    font-size:50px;
+    text-align:center;
+    padding-top:25px;
+    padding-bottom:15px;
+}
+a {
+    text-decoration: none;
+    color:71513C;
+}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+}
+
+li {
+   float: left;
+}
+
+li a {
+    display: block;
+    color: D4927D;
+    text-align: center;
+    padding: 25px 25px;
+    padding-bottom: 15px;
+}
+
+hr {
+    border-color: D4927D;
+	
+}
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin:70px;
+    overflow:hidden;
+}
+
+.card {
+	display: inline-block;
+	padding: 30px;
+	text-align:center;
+	float: center;
+}
+
+img{
+    width: 300px;
+    height: 350px;
+
+}

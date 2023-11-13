@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<p>
+    Seller {{data.seller_id}} sells {{data.name}} and its options is {{data.options}}.
+    Price is {{data.price}}.
+    The item is
+    {% if data['status'] == "lnew"%}
+    likely new!
+    {%endif%}
+    {%if data['status'] == "new"%}
+    new!
+    {%endif%}
+    {%if data['status']=="used"%}
+    used!
+    {%endif%}
+</p>
+<img src="{{img_path}}"/>
+<p>    
+    The address is {{data.addr}}
+</p>
+<p>
+    For payment, the credit card is
+    {% if data['card'] == "Y" %}
+    accepted!
+    {%endif%}
+    {%if data['card']=="N"%}
+    Not accepted!
+    {%endif%}
+</p>
+</body>
+</html>
