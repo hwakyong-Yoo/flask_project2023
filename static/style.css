@@ -1,13 +1,14 @@
 .navbar__logo {
     font-size:50px;
-    text-align:center;
+    text-align:left;
     padding:10px;
 }
 a {
     text-decoration: none;
     color:darkgreen;
 }
-        ul {
+
+ul {
     list-style-type:none;
     margin: 0;
     padding: 0;
